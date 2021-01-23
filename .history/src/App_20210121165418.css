@@ -1,7 +1,5 @@
 .App {
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
+  text-align: center;
 }
 
 .App-logo {
@@ -17,7 +15,7 @@
 
 .App-header {
   background-color: #282c34;
-  min-height: 300px;
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -37,22 +35,4 @@
   to {
     transform: rotate(360deg);
   }
-}
-main {
-  flex-grow: 1;
-  text-align: center;
-  padding: 25px;
-}
-footer {
-  padding: 2px;
-  min-height: 100px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  background: #EEEEEE;
-  font-size: small;
-  text-align: center;
-}
-header {
-  padding: 25px;
 }
