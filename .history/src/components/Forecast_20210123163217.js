@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import Conditions from '../components/Conditions';
+import Conditions from '../Conditions/Conditions';
 
 const Forecast = () => {
     let [responseObj, setResponseObj] = useState({});
