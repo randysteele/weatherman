@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-import Forecast from './components/Forecast'
+import WeatherComponent from './components/WeatherComponent'
 
 function App() {
   return (
@@ -9,7 +9,7 @@ function App() {
         <h1> WeatherMan App</h1>
       </header>
       <main>
-       <Forecast />
+       
       </main>
       <footer> Page Create By Randy Steele
       </footer>
