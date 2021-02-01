@@ -5,7 +5,7 @@ const conditions = (props) => {
            {props.responseObj.cod === 200 ?
                <div>
                    <p><strong>{props.responseObj.name}</strong></p>
-                   <p>It is currently {Math.round(props.responseObj.main.temp)} degrees in {props.responseObj.name} out with <br></br>{props.responseObj.weather[0].description}. The feels like temp is {props.responseObj.main.feels_like} humidity: {props.responseObj.main.humidity} </p>
+                   <p>It is currently {Math.round(props.responseObj.main.temp)} degrees in {responseObj.name} out with <br></br>{props.responseObj.weather[0].description}.</p>
                </div>
            : null
            }

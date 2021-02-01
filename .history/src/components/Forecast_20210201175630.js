@@ -6,9 +6,8 @@ const Forecast = () => {
     let [city, setCity] = useState('');
     let [unit, setUnit] = useState('imperial');
 
-    const uriEncodedCity = encodeURIComponent(city);
-    
-
+    const uriEncodedCity = encodeURIComponent(city); 
+debugger
 
     function getForecast(e) {
         e.preventDefault();
@@ -24,7 +23,6 @@ const Forecast = () => {
     .then(response => response.json())
     .then(response => {
         setResponseObj(response)
-        
     });
 }
 

@@ -7,7 +7,7 @@ const Forecast = () => {
     let [unit, setUnit] = useState('imperial');
 
     const uriEncodedCity = encodeURIComponent(city);
-    
+    debugger 
 
 
     function getForecast(e) {
