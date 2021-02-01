@@ -30,7 +30,7 @@ const Forecast = () => {
         <div>
            <h2>Find Current Weather Conditions</h2>
            <form onSubmit={getForecast}>
-                <input 
+                <input
                     type="text"
                     placeholder="Enter City"
                     maxLength="50"
@@ -38,25 +38,24 @@ const Forecast = () => {
                     onChange={(e) => setCity(e.target.value)}
                     />
                 <label>
-                    <input className ="imperial" checked
+                    <input name ="imperial"
                         type="radio"
                         name="units"
                         checked={unit === "imperial"}
                         value="imperial"
                         onChange={(e) => setUnit(e.target.value)}
                         />
-                        <span>Fahrenheit</span>
-                    
+                    Fahrenheit
                 </label>
                 <label>
-                    <input className="metric"
+                    <input name="metric"
                         type="radio"
                         name="units"
                         checked={unit === "metric"}
                         value="metric"
                         onChange={(e) => setUnit(e.target.value)}
                         />
-                    <span>Celcius</span>
+                    Celcius
                 </label>
                 <button type="submit">Get Forecast</button>
             </form>

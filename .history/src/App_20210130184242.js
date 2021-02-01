@@ -11,7 +11,7 @@ function App() {
       <main>
        <Forecast />
       </main>
-      <footer> Created By Randy Steele
+      <footer> Page Create By Randy Steele
       </footer>
     </div>
   );

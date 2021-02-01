@@ -38,25 +38,24 @@ const Forecast = () => {
                     onChange={(e) => setCity(e.target.value)}
                     />
                 <label>
-                    <input className ="imperial" checked
+                    <input name ="imperial" checked
                         type="radio"
                         name="units"
                         checked={unit === "imperial"}
                         value="imperial"
                         onChange={(e) => setUnit(e.target.value)}
                         />
-                        <span>Fahrenheit</span>
-                    
+                    Fahrenheit
                 </label>
                 <label>
-                    <input className="metric"
+                    <input name="metric"
                         type="radio"
                         name="units"
                         checked={unit === "metric"}
                         value="metric"
                         onChange={(e) => setUnit(e.target.value)}
                         />
-                    <span>Celcius</span>
+                    Celcius
                 </label>
                 <button type="submit">Get Forecast</button>
             </form>
